@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+}
+
+.container1 h1{
+    text-align: center;
+    font-family: Copperplate;
+    font-size: 60px;
+}
+
+.login {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.locations {
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightskyblue; 
+}
+
+.discover {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.accessories {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.men {
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.women {
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: darkgray;
+    color: black;
+}
+
+.container3 input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: darkgray;
+}
+
+.wishlist-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 125px; 
+}
+
+.wishlist-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: red;
+    font-size: 18;
+}
+
+.wishlist-box i {
+    margin-right: 5px;
+}
+
+.shoppingcart-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 50px;
+    background-color: red;
+}
+
+.shoppingcart-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 18;
+    color: white;
+}
+
+.shoppingcart-box i {
+    margin-right: 5px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container4 img {
+    object-fit: cover; 
+    height: 500px; 
+    padding-top: 10px;
+}
+
+.container4 {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+.container4 img {
+    width: 50%; 
+    max-width: 100%; 
+    object-fit: cover; 
+}
+
+.overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    width: 800px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    width: auto; 
+    text-align: center;
+    color: red;
+}
+
+.button.left {
+    margin-right: 650px;
+}
+
+.best-selling {
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+}
+
+.container6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.product img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.product {
+    text-align: center;
+}
+
+.price  {
+    margin-top: 5px;
+    font-weight: bold;
+    color: blue;
+    font-family: Georgia, serif;
+}
+
+.container7 {
+    background-color: lightblue;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.container7 img {
+    object-fit: cover; 
+    height: 500px; 
+}
+
+.container7 h2 {
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.container7 button  {
+    background-color: red;
+    color: white;
+}
